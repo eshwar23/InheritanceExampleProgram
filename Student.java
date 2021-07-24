@@ -3,7 +3,7 @@ class Student extends Person
     int admno;
     Student (String nm , String add , int an)
     {
-        super(nm,add);
+        super(nm,add);// mark that super is present in the first line of the constructor
         admno=an;
     }
     void display()
